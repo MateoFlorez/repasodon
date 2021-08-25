@@ -52,6 +52,10 @@ function perroGuardian() {
     audio6.src="audio/SnitchesAndRats.mp3";
 }
 
+boton2.addEventListener("click",perroGuardian2);
 
+function perroGuardian2() {
+    window.location.reload();
+}
 
 
